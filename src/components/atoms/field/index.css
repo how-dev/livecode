@@ -1,0 +1,42 @@
+.fieldBox__field {
+    outline: none;
+    border: 0;
+    width: 100%;
+    padding: 0 0 0 5px;
+    height: 50px;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #068e00;
+    transition: .3s;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.fieldBox__field--error {
+    outline: none;
+    border: 0;
+    width: 100%;
+    padding: 0 0 0 5px;
+    height: 50px;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #F00;
+    transition: .3s;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.field:focus {
+    border-bottom: 2px solid #fab500;
+}
+
+.fieldBox {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 90px;
+}
+
+.fieldBox__error {
+    color: #00ffea;
+    font-size: .5rem;
+    margin: 0 0 5px;
+}

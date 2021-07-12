@@ -1,0 +1,21 @@
+.buttonBox {
+    width: 100px;
+    height: 250px;
+    background-color: #F69;
+}
+
+.buttonBox__button {
+    border: 0;
+    outline: none;
+    background: #2BC170;
+    width: 100%;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+    height: 50px;
+}
+
+.buttonBox__button:hover {
+    background: #1da85d;
+}
